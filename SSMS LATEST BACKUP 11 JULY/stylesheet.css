@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image:url(images/socbg4.jpg);
+	margin:0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.head
+{
+	font-family:"Trebuchet MS";
+	font-size:40px;
+	color:#FFF;
+	margin-left:50px;
+}
+#banner
+{
+	width:100%;
+	height:100px;
+	border:2px solid #FFF;
+	background-color:rgba(0,0,0,0.7);
+}
+.clg
+{
+	font-family:"Segoe UI";
+	font-size:16px;
+	color:#FF0;
+}
+#wrapper
+{
+	width:80%;
+	border-radius:10px;
+	border:2px solid #FFF;
+	background-color:rgba(0,0,0,0.7);
+}
+.SubHead
+{
+	font-family:"Segoe UI";
+	color:#FFF;
+	font-size:20px;
+}
+.labels
+{
+	font-family:"Trebuchet MS";
+	font-size:16px;
+	color:rgb(0, 0, 0);
+}
+.fields
+{
+	font-family:"Trebuchet MS";
+	font-size:14px;
+	color:rgb(12, 12, 12);
+	border-radius:5px;
+	padding:4px 6px;
+	border:1px solid rgb(7, 7, 7);
+	background-color:transparent;
+}
+
+
+.table
+{
+	border-radius:5px;
+	padding:0px 5px;
+	border:1px solid rgb(8, 8, 8);
+	background-color:#ffffffd7;
+
+}
+
+.bg
+{
+	background-image: url(images/stationery2.png);
+}
+
+
+a.link:link{font-family:"Segoe UI";font-size:16px;color:#9b9797;text-decoration:none;}
+a.link:active{font-family:"Segoe UI";font-size:16px;color:#ffffff;text-decoration:none;}
+a.link:visited{font-family:"Segoe UI";font-size:16px;color:#9b9797;text-decoration:none;}
+a.link:hover{font-family:"Segoe UI";font-size:16px;color:#F6F;text-decoration:none;}
+
+.msg
+{
+	font-family:"Segoe UI";
+	color:rgb(2, 111, 2);
+	font-size:13px;
+}
+a.Command:link{text-decoration:none;font-family:"Segoe UI";color:rgb(14, 14, 14);font-size:16px;padding:5px 7px;border:2px solid rgb(7, 7, 7);border-radius:5px;}
+a.Command:active{text-decoration:none;font-family:"Segoe UI";color:rgb(9, 9, 9);font-size:16px;padding:5px 7px;border:2px solid rgb(5, 5, 5);border-radius:5px;}
+a.Command:visited{text-decoration:none;font-family:"Segoe UI";color:rgb(2, 2, 2);font-size:16px;padding:5px 7px;border:2px solid rgb(10, 10, 10);border-radius:5px;}
+a.Command:hover{text-decoration:none;font-family:"Segoe UI";color:rgb(57, 8, 252);font-size:16px;padding:5px 7px;border:2px solid rgb(119, 16, 0);border-radius:5px;box-shadow:0px 0px 10px #FFFFFF;}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

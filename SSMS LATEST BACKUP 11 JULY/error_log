@@ -1,0 +1,2 @@
+[13-Jun-2023 07:45:34 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/berhadco/ssmssoc/SSMS/index.php on line 8
+[13-Jun-2023 07:45:34 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/berhadco/ssmssoc/SSMS/index.php on line 9
